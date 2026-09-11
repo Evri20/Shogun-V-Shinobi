@@ -4,7 +4,11 @@ public class shinobi_code : MonoBehaviour
     {
     private Rigidbody2D shinobi;
     public float speed = 5f;
-    
+    public float jumpForce = 7f;
+    public Transform groundCheck;      // an empty GameObject placed at the character's feet
+    public float groundCheckRadius = 0.1f;
+    public LayerMask groundLayer;      // set this to whatever layer your ground/platforms are on
+    private bool isGrounded;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -15,6 +19,8 @@ public class shinobi_code : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+        
         Vector2 pos = transform.position;
 
         if (Input.GetKey(KeyCode.RightArrow))
@@ -28,6 +34,12 @@ public class shinobi_code : MonoBehaviour
         }
 
         transform.position = pos;
+
+        if (Input.GetKeyDown(KeyCode.UpArrow) && isGrounded)
+        {
+            shinobi.linearVelocity = new Vector2(shinobi.linearVelocity.x, jumpForce);
+        }
+    
     }
 
     }

@@ -20,6 +20,8 @@ public class shogun : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+        
         Vector2 pos = transform.position;
 
         if (Input.GetKey(KeyCode.D))

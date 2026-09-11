@@ -9,8 +9,12 @@ public class shinobi_code : MonoBehaviour
     public float groundCheckRadius = 0.1f;
     public LayerMask groundLayer;      // set this to whatever layer your ground/platforms are on
     private bool isGrounded;
+    
+    public Transform otherCharacter;   // reference to the other character's transform
+    
+    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+     void Start()
     {
         shinobi = GetComponent<Rigidbody2D>();
     }
@@ -31,6 +35,7 @@ public class shinobi_code : MonoBehaviour
         if (Input.GetKey(KeyCode.LeftArrow))
         {
             pos.x -= speed * Time.deltaTime;
+            FlipTowardsOpponent();
         }
 
         transform.position = pos;
@@ -39,7 +44,23 @@ public class shinobi_code : MonoBehaviour
         {
             shinobi.linearVelocity = new Vector2(shinobi.linearVelocity.x, jumpForce);
         }
+
+        FlipTowardsOpponent();
     
     }
 
+    void FlipTowardsOpponent()
+    {
+        if(transform.position.x < otherCharacter.position.x)
+        {
+            transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+        }
+        else
+        {
+            transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+        }
+
+    }
+    
+    
     }

@@ -51,7 +51,7 @@ public class shinobi_code : MonoBehaviour
 
     void FlipTowardsOpponent()
     {
-        if(transform.position.x < otherCharacter.position.x)
+        if(transform.position.x > otherCharacter.position.x)
         {
             transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
         }

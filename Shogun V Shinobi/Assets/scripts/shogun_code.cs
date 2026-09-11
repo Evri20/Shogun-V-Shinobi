@@ -6,6 +6,10 @@ public class shogun : MonoBehaviour
     public float speed = 5f;
     public float jumpForce = 7f;
     
+    public Transform groundCheck;      // an empty GameObject placed at the character's feet
+    public float groundCheckRadius = 0.1f;
+    public LayerMask groundLayer;      // set this to whatever layer your ground/platforms are on
+    private bool isGrounded;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -29,9 +33,9 @@ public class shogun : MonoBehaviour
 
         transform.position = pos;
        
-        //if (Input.GetKeyDown(KeyCode.W) && isGrounded)
-        //{
-        //    shgogun.linearVelocity = new Vector2(shgogun.linearVelocity.x, jumpForce);
-        //}
+        if (Input.GetKeyDown(KeyCode.W) && isGrounded)
+        {
+            shgogun.linearVelocity = new Vector2(shgogun.linearVelocity.x, jumpForce);
+        }
     }
 }

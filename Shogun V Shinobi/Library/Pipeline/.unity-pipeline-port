@@ -1,0 +1,16 @@
+{
+  "pid": 26108,
+  "port": 7800,
+  "projectPath": "/Users/Evkoman/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi",
+  "projectName": "Shogun V Shinobi",
+  "unityVersion": "6000.2.14f1",
+  "mode": "editor",
+  "startedAt": "2026-09-11T18:22:52.620075Z",
+  "lastHeartbeat": "2026-09-11T18:22:52.620076Z",
+  "evalToken": "utAtC52huXsVguVmjujmgfGjzVQ+OcQG7wFYUWK7vao=",
+  "info": "This editor has not been opened in automated mode and therefore could get stuck on modal dialogs. Human intervention may be required.",
+  "capabilities": [
+    "exec.argv",
+    "exec.commandLine"
+  ]
+}

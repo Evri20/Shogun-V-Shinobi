@@ -4,12 +4,13 @@ public class shogun : MonoBehaviour
 {
     private Rigidbody2D shgogun;
     public float speed = 5f;
-
+    public float jumpForce = 7f;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         shgogun = GetComponent<Rigidbody2D>();
+
     }
 
     // Update is called once per frame
@@ -28,5 +29,9 @@ public class shogun : MonoBehaviour
 
         transform.position = pos;
        
+        //if (Input.GetKeyDown(KeyCode.W) && isGrounded)
+        //{
+        //    shgogun.linearVelocity = new Vector2(shgogun.linearVelocity.x, jumpForce);
+        //}
     }
 }

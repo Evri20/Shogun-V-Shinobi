@@ -13,6 +13,7 @@ public class shogun : MonoBehaviour
     
     public Transform otherCharacter;   // reference to the other character's transform
     
+    public Animator animator;          // reference to the Animator component
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -34,6 +35,15 @@ public class shogun : MonoBehaviour
         if (Input.GetKey(KeyCode.A))
         {
             pos.x -= speed * Time.deltaTime;
+        }
+
+        if (Input.GetAxis("Horizontal") != 0)
+        {
+            animator.SetBool("isRunning", true);
+        }
+        else
+        {
+            animator.SetBool("isRunning", false);
         }
 
         transform.position = pos;

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0029d54e3261f4065945685e6d47cdfe
+guid: b5f436d0d3c124643ba46fa9c9fe46a6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2063364361954399847
-    second: Shinobi_0
+      213: 2739868519110810565
+    second: Shinobi_1 - 7_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -97,7 +97,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WebGL
+    buildTarget: iOS
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -113,23 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Shinobi_0
+      name: Shinobi_1 - 7_0
       rect:
         serializedVersion: 2
-        x: 216
-        y: 433
-        width: 1335
+        x: 278
+        y: 402
+        width: 1428
         height: 1056
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 999e1838b057d53e0800000000000000
-      internalID: -2063364361954399847
+      spriteID: 5cb10e4d6e7f50620800000000000000
+      internalID: 2739868519110810565
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 0fc2e835e131749809b10c3a4bdfa962
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Shinobi_0: -2063364361954399847
+      Shinobi_1 - 7_0: 2739868519110810565
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

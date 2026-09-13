@@ -10,6 +10,8 @@ public class shinobi_code : MonoBehaviour
     public LayerMask groundLayer;      // set this to whatever layer your ground/platforms are on
     private bool isGrounded;
     
+    [SerializeField]
+    private Animator animator;          // reference to the Animator component
     public Transform otherCharacter;   // reference to the other character's transform
     
     
@@ -39,6 +41,15 @@ public class shinobi_code : MonoBehaviour
         }
 
         transform.position = pos;
+
+        if (Input.GetAxis("Horizontal") != 0)
+        {
+            animator.SetBool("isRunning", true);
+        }
+        else
+        {
+            animator.SetBool("isRunning", false);
+        }
 
         if (Input.GetKeyDown(KeyCode.UpArrow) && isGrounded)
         {

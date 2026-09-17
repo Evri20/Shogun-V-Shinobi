@@ -26,7 +26,7 @@ public class shinobi_code : MonoBehaviour
     {
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
         animator.SetBool("isJumping", !isGrounded); // Set the "isJumping" parameter based on whether the character is grounded
-        animator.SetFloat("verticalVelocity", shinobi.velocity.y); // Set the "verticalVelocity" parameter to the character's vertical velocity
+        animator.SetFloat("verticalVelocity", shinobi.linearVelocity.y); // Set the "verticalVelocity" parameter to the character's vertical velocity
         
         Vector2 pos = transform.position;
 
@@ -43,7 +43,7 @@ public class shinobi_code : MonoBehaviour
 
         transform.position = pos;
 
-        if (Input.GetAxis("Horizontal") != 0)
+        if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow))
         {
             animator.SetBool("isRunning", true);
         }

@@ -750,3 +750,18 @@
 [2026-09-14T17:08:16.230Z] [INFO] log Unity MCP Relay server started | Port: 9002 | Endpoints: /mcp/start-server, /mcp/stop-server, /mcp/server-status, /mcp/call-tool
 [2026-09-14T17:08:16.349Z] [INFO] log Unity client connected with ID: editor-37675-t1sl4a (relay 1.0.12-build.99)
 [2026-09-14T17:08:16.349Z] [INFO] connection.established clientId=editor-37675-t1sl4a port=9001
+[2026-09-17T19:04:42.246Z] [INFO] relay.startup port=9001 mcpClientPort=9002 editorPid=74049
+[2026-09-17T19:04:42.248Z] [INFO] log === RELAY SERVER STARTED === (unity-ai-relay v1.0.12-build.99)
+[2026-09-17T19:04:42.296Z] [INFO] log TLS trust: NODE_USE_SYSTEM_CA=on systemCAs=1 bundledCAs=145
+[2026-09-17T19:04:42.296Z] [INFO] log Starting relay server...
+[2026-09-17T19:04:42.296Z] [INFO] log Command line arguments: ["bun","/$bunfs/root/relay_mac_arm64","--relay","--port","9001","--mcp-client-port","9002","--editor-pid","74049","--shutdown-delay","180","--log-dir","/Users/Evkoman/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Logs"]
+[2026-09-17T19:04:42.296Z] [INFO] log Parsed config: {"port":9001,"mcpClientPort":9002,"editorPid":"74049","shutdownDelaySeconds":180}
+[2026-09-17T19:04:42.300Z] [INFO] log Initializing relay components...
+[2026-09-17T19:04:42.300Z] [INFO] log Creating RelayEditor...
+[2026-09-17T19:04:42.307Z] [INFO] log WebSocket server started
+[2026-09-17T19:04:42.309Z] [INFO] log Relay server initialization completed
+[2026-09-17T19:04:42.309Z] [INFO] log MCP Client initialized at port: 9002
+[2026-09-17T19:04:42.348Z] [INFO] log [shell-env] PATH augmented with shell environment (10 entries)
+[2026-09-17T19:04:42.348Z] [INFO] log Unity MCP Relay server started | Port: 9002 | Endpoints: /mcp/start-server, /mcp/stop-server, /mcp/server-status, /mcp/call-tool
+[2026-09-17T19:04:42.506Z] [INFO] log Unity client connected with ID: editor-74049-te95y2 (relay 1.0.12-build.99)
+[2026-09-17T19:04:42.506Z] [INFO] connection.established clientId=editor-74049-te95y2 port=9001

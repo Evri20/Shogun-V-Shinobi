@@ -43,6 +43,11 @@ public class shinobi_code : MonoBehaviour
 
         transform.position = pos;
 
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            animator.SetTrigger("attack");
+        }
+
         if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow))
         {
             animator.SetBool("isRunning", true);

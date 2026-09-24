@@ -50,6 +50,11 @@ public class shogun : MonoBehaviour
 
         transform.position = pos;
        
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            animator.SetTrigger("attack");
+        }
+        
         if (Input.GetKeyDown(KeyCode.W) && isGrounded)
         {
             shgogun.linearVelocity = new Vector2(shgogun.linearVelocity.x, jumpForce);

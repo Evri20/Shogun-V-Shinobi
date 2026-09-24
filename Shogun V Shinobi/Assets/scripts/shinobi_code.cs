@@ -43,7 +43,7 @@ public class shinobi_code : MonoBehaviour
 
         transform.position = pos;
 
-        if (Input.GetKeyDown(KeyCode.F))
+        if (Input.GetKeyDown(KeyCode.J))
         {
             animator.SetTrigger("attack");
         }

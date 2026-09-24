@@ -17,21 +17,64 @@ AnimationClip:
   m_PositionCurves: []
   m_ScaleCurves: []
   m_FloatCurves: []
-  m_PPtrCurves: []
+  m_PPtrCurves:
+  - serializedVersion: 2
+    curve:
+    - time: 0
+      value: {fileID: -6881505282911172490, guid: 5273fecaec64f4f8f88fd7d8a2314775, type: 3}
+    - time: 0.05
+      value: {fileID: -3363698008604810437, guid: 0b31d86b6965f4c7a9a2b6d88c2e6f74, type: 3}
+    - time: 0.1
+      value: {fileID: 6631637020564036502, guid: db5065b3055d14dbcbddedf30fbff340, type: 3}
+    - time: 0.15
+      value: {fileID: -6291636437226211890, guid: b520d88b9869f40e58d96633d21d8779, type: 3}
+    - time: 0.21666667
+      value: {fileID: -3015781080854541626, guid: a3cca294036d04cdf90eed36c17bd0bf, type: 3}
+    - time: 0.26666668
+      value: {fileID: 3754592209630800618, guid: 3de65c9babb4245b48ba778a6d1852c5, type: 3}
+    - time: 0.31666666
+      value: {fileID: -2370081562918384390, guid: bd37149ed33f64d3b83af1c6ec279e1d, type: 3}
+    - time: 0.36666667
+      value: {fileID: 8500131281387563509, guid: 949bc54e51de647eaa87660abbdfd540, type: 3}
+    - time: 0.41666666
+      value: {fileID: -4504926178401981434, guid: 365b9829df18740cfbd39944ab912acc, type: 3}
+    attribute: m_Sprite
+    path: 
+    classID: 212
+    script: {fileID: 0}
+    flags: 2
   m_SampleRate: 60
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0, y: 0, z: 0}
   m_ClipBindingConstant:
-    genericBindings: []
-    pptrCurveMapping: []
+    genericBindings:
+    - serializedVersion: 2
+      path: 0
+      attribute: 0
+      script: {fileID: 0}
+      typeID: 212
+      customType: 23
+      isPPtrCurve: 1
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    pptrCurveMapping:
+    - {fileID: -6881505282911172490, guid: 5273fecaec64f4f8f88fd7d8a2314775, type: 3}
+    - {fileID: -3363698008604810437, guid: 0b31d86b6965f4c7a9a2b6d88c2e6f74, type: 3}
+    - {fileID: 6631637020564036502, guid: db5065b3055d14dbcbddedf30fbff340, type: 3}
+    - {fileID: -6291636437226211890, guid: b520d88b9869f40e58d96633d21d8779, type: 3}
+    - {fileID: -3015781080854541626, guid: a3cca294036d04cdf90eed36c17bd0bf, type: 3}
+    - {fileID: 3754592209630800618, guid: 3de65c9babb4245b48ba778a6d1852c5, type: 3}
+    - {fileID: -2370081562918384390, guid: bd37149ed33f64d3b83af1c6ec279e1d, type: 3}
+    - {fileID: 8500131281387563509, guid: 949bc54e51de647eaa87660abbdfd540, type: 3}
+    - {fileID: -4504926178401981434, guid: 365b9829df18740cfbd39944ab912acc, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1
+    m_StopTime: 0.43333334
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -50,4 +93,18 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events: []
+  m_Events:
+  - time: 0.31666666
+    functionName: EnableHitbox
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.41666666
+    functionName: DisableHitbox
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0

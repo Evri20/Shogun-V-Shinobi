@@ -1314,3 +1314,5 @@
 [2026-09-24T02:54:08.356Z] [DEBUG] log Relay->Editor communication is unblocked
 [2026-09-24T02:54:08.356Z] [INFO] log Unity client connected with ID: editor-12739-91lc3v (relay 1.0.12-build.99)
 [2026-09-24T02:54:08.357Z] [INFO] connection.established clientId=editor-12739-91lc3v port=9001
+[2026-09-24T03:02:31.376Z] [INFO] log Unity client requested immediate shutdown - shutting down now, reason: Shutdown requested by client
+[2026-09-24T03:02:31.376Z] [INFO] log Shutdown request received from client editor-12739-91lc3v

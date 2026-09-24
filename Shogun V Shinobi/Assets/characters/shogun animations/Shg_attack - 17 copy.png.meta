@@ -116,12 +116,12 @@ TextureImporter:
       name: Shg_attack - 17 copy_0
       rect:
         serializedVersion: 2
-        x: 588
+        x: 495
         y: 371
-        width: 1335
+        width: 1427
         height: 1211
       alignment: 9
-      pivot: {x: 0.43033707, y: 0.5}
+      pivot: {x: 0.40259284, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []

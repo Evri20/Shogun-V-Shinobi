@@ -116,12 +116,12 @@ TextureImporter:
       name: Shg_attack - 16_0
       rect:
         serializedVersion: 2
-        x: 588
+        x: 495
         y: 371
-        width: 1149
+        width: 1242
         height: 1211
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.4625604, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 0b31d6b8ef0b74a608e463f1b75fcb2c
     internalID: 0
     vertices: []
     indices: 

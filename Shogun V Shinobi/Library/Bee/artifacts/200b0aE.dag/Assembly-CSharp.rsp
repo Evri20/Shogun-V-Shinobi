@@ -487,6 +487,7 @@
 -analyzer:"Library/PackageCache/com.unity.pipeline@9bb4172c603c/Runtime/Analyzers/IlInterpreterAnalyzer.dll"
 "Assets/scripts/Attackevents.cs"
 "Assets/scripts/AttackHitbox.cs"
+"Assets/scripts/buttonManager.cs"
 "Assets/scripts/health_code.cs"
 "Assets/scripts/HeartsUI_code.cs"
 "Assets/scripts/shinobi_code.cs"

@@ -1,6 +1,6 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/Evkoman/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Temp/Burst/burst-aotqjnkxe3e.ely/013e23cf8c91be95654a2d582713085d.bundle'
+binary-path:     '/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Temp/Burst/burst-aot393q83t7.p77/013e23cf8c91be95654a2d582713085d.bundle'
 relocations:
   - { offset: 0x1E, size: 0x8, addend: 0x0, symName: '_Unity.Jobs.IJobForExtensions.ForJobStruct`1<UnityEngine.Rendering.Universal.TilingJob>.Execute(ref UnityEngine.Rendering.Universal.TilingJob jobData, System.IntPtr additionalPtr, System.IntPtr bufferRangePatchData, ref Unity.Jobs.LowLevel.Unsafe.JobRanges ranges, int jobIndex) -> void_4bde6e1d7bd3f9432681ccd64fa026c9 from UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null', symObjAddr: 0x148, symBinAddr: 0x5E8, symSize: 0x1B8 }
   - { offset: 0x43, size: 0x8, addend: 0x0, symName: '_Unity.Jobs.IJobForExtensions.ForJobStruct`1<UnityEngine.Rendering.Universal.TilingJob>.Execute(ref UnityEngine.Rendering.Universal.TilingJob jobData, System.IntPtr additionalPtr, System.IntPtr bufferRangePatchData, ref Unity.Jobs.LowLevel.Unsafe.JobRanges ranges, int jobIndex) -> void_4bde6e1d7bd3f9432681ccd64fa026c9 from UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null', symObjAddr: 0x148, symBinAddr: 0x5E8, symSize: 0x1B8 }

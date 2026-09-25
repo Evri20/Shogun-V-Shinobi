@@ -1,6 +1,6 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/Evkoman/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Temp/Burst/burst-aotfj78niqc.rj0/b51358ea765fbc763cbd3a456227771c.bundle'
+binary-path:     '/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Temp/Burst/burst-aot2f73tfgz.j4c/b51358ea765fbc763cbd3a456227771c.bundle'
 relocations:
   - { offset: 0x1E, size: 0x8, addend: 0x0, symName: '_Unity.Jobs.IJobParallelForExtensions.ParallelForJobStruct`1<Unity.InferenceEngine.BurstJobsCastTensor.Float16BytesAsFloatJob>.Execute(ref Unity.InferenceEngine.BurstJobsCastTensor.Float16BytesAsFloatJob jobData, System.IntPtr additionalPtr, System.IntPtr bufferRangePatchData, ref Unity.Jobs.LowLevel.Unsafe.JobRanges ranges, int jobIndex) -> void_aaaff58bdce476e006d3a95c8933df9f from UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null', symObjAddr: 0xA0, symBinAddr: 0x540, symSize: 0x104 }
   - { offset: 0x43, size: 0x8, addend: 0x0, symName: '_Unity.Jobs.IJobParallelForExtensions.ParallelForJobStruct`1<Unity.InferenceEngine.BurstJobsCastTensor.Float16BytesAsFloatJob>.Execute(ref Unity.InferenceEngine.BurstJobsCastTensor.Float16BytesAsFloatJob jobData, System.IntPtr additionalPtr, System.IntPtr bufferRangePatchData, ref Unity.Jobs.LowLevel.Unsafe.JobRanges ranges, int jobIndex) -> void_aaaff58bdce476e006d3a95c8933df9f from UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null', symObjAddr: 0xA0, symBinAddr: 0x540, symSize: 0x104 }

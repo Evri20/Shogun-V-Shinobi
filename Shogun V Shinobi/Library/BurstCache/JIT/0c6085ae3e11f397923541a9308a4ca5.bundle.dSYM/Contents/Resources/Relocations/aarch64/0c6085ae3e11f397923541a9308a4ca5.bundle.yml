@@ -1,6 +1,6 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/Evkoman/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Temp/Burst/burst-aotenlqozdb.wic/0c6085ae3e11f397923541a9308a4ca5.bundle'
+binary-path:     '/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Temp/Burst/burst-aotshnz4llv.35k/0c6085ae3e11f397923541a9308a4ca5.bundle'
 relocations:
   - { offset: 0x1E, size: 0x8, addend: 0x0, symName: '_Unity.InferenceEngine.CPUBackend.ConvJob.CanUseDepthwiseConvKernel(Unity.InferenceEngine.CPUBackend.ConvJob* job) -> bool_70a623e5e257f99fe3cee558eca4fa37 from Unity.InferenceEngine, Version=2.6.1.0, Culture=neutral, PublicKeyToken=null', symObjAddr: 0x54, symBinAddr: 0x4A4, symSize: 0xA0 }
   - { offset: 0x37, size: 0x8, addend: 0x0, symName: '_Unity.InferenceEngine.CPUBackend.ConvJob.CanUseDepthwiseConvKernel(Unity.InferenceEngine.CPUBackend.ConvJob* job) -> bool_70a623e5e257f99fe3cee558eca4fa37 from Unity.InferenceEngine, Version=2.6.1.0, Culture=neutral, PublicKeyToken=null', symObjAddr: 0x54, symBinAddr: 0x4A4, symSize: 0xA0 }

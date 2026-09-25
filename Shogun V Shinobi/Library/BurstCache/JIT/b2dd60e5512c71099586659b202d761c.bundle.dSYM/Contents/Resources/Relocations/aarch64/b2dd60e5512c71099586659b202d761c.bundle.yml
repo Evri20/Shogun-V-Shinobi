@@ -1,6 +1,6 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/Evkoman/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Temp/Burst/burst-aotvl5s11hl.j4i/b2dd60e5512c71099586659b202d761c.bundle'
+binary-path:     '/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Temp/Burst/burst-aote9pwl95b.tfz/b2dd60e5512c71099586659b202d761c.bundle'
 relocations:
   - { offset: 0x1E, size: 0x8, addend: 0x0, symName: '_Unity.Jobs.IJobParallelForExtensions.ParallelForJobStruct`1<Unity.InferenceEngine.CPUBackend.GlobalAverageVariancePoolJob>.Execute(ref Unity.InferenceEngine.CPUBackend.GlobalAverageVariancePoolJob jobData, System.IntPtr additionalPtr, System.IntPtr bufferRangePatchData, ref Unity.Jobs.LowLevel.Unsafe.JobRanges ranges, int jobIndex) -> void_037478f4e034e4974338058cdb94d633 from UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null', symObjAddr: 0x70, symBinAddr: 0x4C0, symSize: 0x2B0 }
   - { offset: 0x3D, size: 0x8, addend: 0x0, symName: '_Unity.Jobs.IJobParallelForExtensions.ParallelForJobStruct`1<Unity.InferenceEngine.CPUBackend.GlobalAverageVariancePoolJob>.Execute(ref Unity.InferenceEngine.CPUBackend.GlobalAverageVariancePoolJob jobData, System.IntPtr additionalPtr, System.IntPtr bufferRangePatchData, ref Unity.Jobs.LowLevel.Unsafe.JobRanges ranges, int jobIndex) -> void_037478f4e034e4974338058cdb94d633 from UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null', symObjAddr: 0x70, symBinAddr: 0x4C0, symSize: 0x2B0 }

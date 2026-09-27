@@ -488,6 +488,7 @@
 "Assets/scripts/Attackevents.cs"
 "Assets/scripts/AttackHitbox.cs"
 "Assets/scripts/buttonManager.cs"
+"Assets/scripts/gameManager.cs"
 "Assets/scripts/health_code.cs"
 "Assets/scripts/HeartsUI_code.cs"
 "Assets/scripts/shinobi_code.cs"

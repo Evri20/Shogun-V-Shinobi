@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 44619771c125045d694cfdb4f736830c
+guid: 653149e4bf8514c9189284a49dac859f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8236292722340750036
-    second: Pixel button UI 2_0
+      213: 8749462372544064395
+    second: Pixel button UI 3_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Pixel button UI 2_0
+      name: Pixel button UI 3_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 495
+        y: 991
         width: 1984
-        height: 994
+        height: 498
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4d2614dd7903d4270800000000000000
-      internalID: 8236292722340750036
+      spriteID: b8ba223dba55c6970800000000000000
+      internalID: 8749462372544064395
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Pixel button UI 2_0: 8236292722340750036
+      Pixel button UI 3_0: 8749462372544064395
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

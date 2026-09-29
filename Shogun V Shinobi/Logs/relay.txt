@@ -1706,3 +1706,18 @@
 [2026-09-29T03:36:38.508Z] [INFO] log Shutdown request received from client editor-42579-o09i7z
 [2026-09-29T03:36:38.508Z] [INFO] log Unity client requested immediate shutdown - shutting down now, reason: Shutdown requested by client
 [2026-09-29T03:36:38.508Z] [INFO] log Shutdown: Initiating graceful shutdown: Shutdown requested by client
+[2026-09-29T16:31:53.895Z] [INFO] relay.startup port=9001 mcpClientPort=9002 editorPid=51347
+[2026-09-29T16:31:53.896Z] [INFO] log === RELAY SERVER STARTED === (unity-ai-relay v1.0.12-build.99)
+[2026-09-29T16:31:53.903Z] [INFO] log TLS trust: NODE_USE_SYSTEM_CA=on systemCAs=0 bundledCAs=145
+[2026-09-29T16:31:53.903Z] [INFO] log Starting relay server...
+[2026-09-29T16:31:53.903Z] [INFO] log Command line arguments: ["bun","/$bunfs/root/relay_mac_arm64","--relay","--port","9001","--mcp-client-port","9002","--editor-pid","51347","--shutdown-delay","180","--log-dir","/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Logs"]
+[2026-09-29T16:31:53.903Z] [INFO] log Parsed config: {"port":9001,"mcpClientPort":9002,"editorPid":"51347","shutdownDelaySeconds":180}
+[2026-09-29T16:31:53.905Z] [INFO] log Initializing relay components...
+[2026-09-29T16:31:53.906Z] [INFO] log Creating RelayEditor...
+[2026-09-29T16:31:53.908Z] [INFO] log WebSocket server started
+[2026-09-29T16:31:53.908Z] [INFO] log Relay server initialization completed
+[2026-09-29T16:31:53.908Z] [INFO] log MCP Client initialized at port: 9002
+[2026-09-29T16:31:53.917Z] [INFO] log Unity MCP Relay server started | Port: 9002 | Endpoints: /mcp/start-server, /mcp/stop-server, /mcp/server-status, /mcp/call-tool
+[2026-09-29T16:31:53.932Z] [INFO] log [shell-env] PATH augmented with shell environment (13 entries)
+[2026-09-29T16:31:53.937Z] [INFO] log Unity client connected with ID: editor-51347-sqwpf7 (relay 1.0.12-build.99)
+[2026-09-29T16:31:53.937Z] [INFO] connection.established clientId=editor-51347-sqwpf7 port=9001

@@ -1721,3 +1721,5 @@
 [2026-09-29T16:31:53.932Z] [INFO] log [shell-env] PATH augmented with shell environment (13 entries)
 [2026-09-29T16:31:53.937Z] [INFO] log Unity client connected with ID: editor-51347-sqwpf7 (relay 1.0.12-build.99)
 [2026-09-29T16:31:53.937Z] [INFO] connection.established clientId=editor-51347-sqwpf7 port=9001
+[2026-09-29T18:42:13.800Z] [INFO] log Shutdown request received from client editor-51347-sqwpf7
+[2026-09-29T18:42:13.800Z] [INFO] log Unity client requested immediate shutdown - shutting down now, reason: Shutdown requested by client

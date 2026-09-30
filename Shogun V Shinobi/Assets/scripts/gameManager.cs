@@ -40,8 +40,14 @@ public class gameManager : MonoBehaviour
     public void DeclareWinner(string winSceneName)
     {
         Time.timeScale = 1f; // Ensure time scale is reset before loading the scene
+        StartCoroutine(DeclareWinScene(winSceneName));
+    }
+    IEnumerator DeclareWinScene(string winSceneName)
+    {
+        yield return new WaitForSecondsRealtime(3f); // Wait for 3 seconds before loading the win scene
         SceneManager.LoadScene(winSceneName);
     }
+    
     // Update is called once per frame
     void Update()
     {

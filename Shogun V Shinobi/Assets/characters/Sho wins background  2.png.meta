@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 7af80dfec48da4ca7be2e710d2cbaa32
+guid: 5e7fea4d5817e4e4faeaf78021279245
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1656536994460024460
-    second: Sho wins background _0
+      213: -4758020686479208986
+    second: Sho wins background  2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sho wins background _0
+      name: Sho wins background  2_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c8e3518ae933df610800000000000000
-      internalID: 1656536994460024460
+      spriteID: 6ed427c056d18fdb0800000000000000
+      internalID: -4758020686479208986
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Sho wins background _0: 1656536994460024460
+      Sho wins background  2_0: -4758020686479208986
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

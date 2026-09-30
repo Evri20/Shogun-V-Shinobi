@@ -28,7 +28,7 @@ public class health_code : MonoBehaviour
         if (currentHealth <= 0)
         {
             // Load the opponent win scene
-            UnityEngine.SceneManagement.SceneManager.LoadScene(opponentWinScene);
+            gameManager.Instance.DeclareWinner(opponentWinScene);
         }
     }
 

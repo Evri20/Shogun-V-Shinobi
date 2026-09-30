@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1512
     height: 850
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 21
+  controlID: 39
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 27
+  controlID: 40
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -171,7 +171,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 72
+  controlID: 41
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -352,7 +352,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -406,7 +406,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 24
+    y: 97
     width: 303.5
     height: 443
   m_SerializedDataModeController:
@@ -425,7 +425,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 58e3fffff8e3ffff98e4ffff38e5ffff54ecffff18edffff0af7fffff2faffff
+      m_ExpandedIDs: a0cbffffbccfffff5ad0ffff70d1ffffd2dfffff82e8ffffd6e9ffff76eaffff70f2ffff10f3ffffb0f3ffff50f4ffff86f5ffff26f6ffffc6f6ffff6cf7ffff34f8fffff2faffffe202010050040100120c0100940c0100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -471,8 +471,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 305.5
-    y: 24
+    x: 304.5
+    y: 97
     width: 927.5
     height: 443
   m_SerializedDataModeController:
@@ -1085,9 +1085,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 5.172422, y: 1.03444, z: 9.392773}
+    m_Target: {x: 1.7496517, y: -0.43491548, z: 5.423056}
     speed: 2
-    m_Value: {x: 5.172422, y: 1.03444, z: 9.392773}
+    m_Value: {x: 1.7496517, y: -0.43491548, z: 5.423056}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1137,9 +1137,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 10.430849
+    m_Target: 9.636988
     speed: 2
-    m_Value: 10.430849
+    m_Value: 9.636988
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1284,7 +1284,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 493
+    y: 566
     width: 1233
     height: 299
   m_SerializedDataModeController:
@@ -1309,7 +1309,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/characters
+    - Assets/scripts
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1319,16 +1319,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/characters
+  - Assets/scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: dafd0000
-    m_LastClickedID: 64986
-    m_ExpandedIDs: 0000000024ad0000f0fd0000f2fd0000f4fd0000f6fd0000
+    m_SelectedIDs: 74fe0000
+    m_LastClickedID: 65140
+    m_ExpandedIDs: 0000000024ad0000f0fd0000f2fd0000f4fd0000f6fd000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1511,8 +1511,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1235
-    y: 24
+    x: 1234
+    y: 97
     width: 277
     height: 768
   m_SerializedDataModeController:

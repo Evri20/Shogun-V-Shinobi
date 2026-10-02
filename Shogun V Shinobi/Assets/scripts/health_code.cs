@@ -6,6 +6,8 @@ public class health_code : MonoBehaviour
     public int currentHealth;
     public HeartsUI_code heartsUI;
     public string opponentWinScene;
+    public Animator animator;
+    public MonoBehaviour movementScript;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -27,9 +29,23 @@ public class health_code : MonoBehaviour
 
         if (currentHealth <= 0)
         {
-            // Load the opponent win scene
-            gameManager.Instance.DeclareWinner(opponentWinScene);
+            Die();
         }
+    }
+
+    void Die()
+    {
+        if (animator != null)
+        {
+            animator.SetTrigger("Die");
+        }
+
+        if (movementScript !=null)
+        {
+            movementScript.enabled = false;
+        }
+
+        gameManager.Instance.DeclareWinner(opponentWinScene);
     }
 
 }

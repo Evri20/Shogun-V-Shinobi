@@ -280,6 +280,7 @@ GameObject:
   - component: {fileID: 104862721}
   - component: {fileID: 104862722}
   - component: {fileID: 104862723}
+  - component: {fileID: 104862724}
   m_Layer: 0
   m_Name: Shinobi_1_0
   m_TagString: Player
@@ -494,6 +495,8 @@ MonoBehaviour:
   currentHealth: 0
   heartsUI: {fileID: 31513886}
   opponentWinScene: sho_winScene
+  animator: {fileID: 104862721}
+  movementScript: {fileID: 104862716}
 --- !u!114 &104862723
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -507,6 +510,140 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Attackevents
   attackHitbox: {fileID: 803354951}
+--- !u!60 &104862724
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 104862715}
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 13.35, y: 10.56}
+    newSize: {x: 10.87, y: 12.11}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 1.6949999, y: -5.2799997}
+      - {x: 3.925, y: -5.2799997}
+      - {x: 3.895, y: -4.29}
+      - {x: 3.405, y: -3.32}
+      - {x: 2.8049998, y: -2.97}
+      - {x: 3.205, y: -1.5699999}
+      - {x: 3.205, y: -2.5}
+      - {x: 3.465, y: -3.04}
+      - {x: 4.7449985, y: -2.7600002}
+      - {x: 4.745, y: -2.76}
+      - {x: 4.955, y: -1.37}
+      - {x: 3.3049998, y: 0.02}
+      - {x: 2.345, y: 0.62}
+      - {x: 2.5194337, y: 1.4797533}
+      - {x: 2.489642, y: 1.6160765}
+      - {x: 2.4544694, y: 1.9320633}
+      - {x: 2.5589519, y: 2.4631217}
+      - {x: 2.3418174, y: 2.79556}
+      - {x: 2.3843555, y: 2.525402}
+      - {x: 2.495586, y: 2.4932137}
+      - {x: 2.385411, y: 2.3012187}
+      - {x: 2.3430896, y: 2.618217}
+      - {x: 2.3304968, y: 2.8089936}
+      - {x: 2.249065, y: 3.297798}
+      - {x: 2.462562, y: 3.2198071}
+      - {x: 2.5288646, y: 3.3551092}
+      - {x: 2.4912217, y: 3.4540718}
+      - {x: 2.325, y: 3.4299998}
+      - {x: 1.765, y: 3.56}
+      - {x: 1.145, y: 4.18}
+      - {x: -0.775, y: 4.0499997}
+      - {x: -1.415, y: 3.4099998}
+      - {x: -1.7249999, y: 3.1499999}
+      - {x: -2.065, y: 2.49}
+      - {x: -2.0349998, y: 0.31}
+      - {x: -2.0149999, y: 0.29}
+      - {x: -1.755, y: -0.02}
+      - {x: -2.0349998, y: -1.24}
+      - {x: -2.305, y: -0.93}
+      - {x: -2.325, y: -0.90999997}
+      - {x: -2.585, y: -0.59999996}
+      - {x: -3.5549998, y: -0.25}
+      - {x: -4.795, y: 1.5799999}
+      - {x: -5.415, y: 2.82}
+      - {x: -4.8590493, y: 1.2887313}
+      - {x: -4.6402507, y: 1.061665}
+      - {x: -4.5973883, y: 0.5465932}
+      - {x: -5.0258675, y: 1.343263}
+      - {x: -5.3060994, y: 2.0367398}
+      - {x: -5.403993, y: 1.9607601}
+      - {x: -5.4843736, y: 1.2814351}
+      - {x: -5.350164, y: 1.3204763}
+      - {x: -5.125908, y: 1.2025824}
+      - {x: -5.1748295, y: 0.97649014}
+      - {x: -5.473324, y: 1.1742582}
+      - {x: -5.321841, y: 0.7817217}
+      - {x: -5.7549996, y: 0.62}
+      - {x: -5.4249997, y: 0.29}
+      - {x: -5.1349998, y: -0.31}
+      - {x: -4.495, y: -0.95}
+      - {x: -4.205, y: -2.1699998}
+      - {x: -4.185, y: -2.19}
+      - {x: -3.975, y: -2.7}
+      - {x: -3.365, y: -2.76}
+      - {x: -2.0249999, y: -3.47}
+      - {x: -1.415, y: -3.4299998}
+      - {x: -2.0349998, y: -4.3399997}
+      - {x: -2.065, y: -5.2799997}
+      - {x: 0.195, y: -5.2799997}
+      - {x: 1.035, y: -3.74}
+      - {x: 1.355, y: -4.0499997}
+      - {x: 1.685, y: -5.27}
+    - - {x: -1.3249999, y: -2.77}
+      - {x: -1.645, y: -2.73}
+      - {x: -1.645, y: -2.54}
+      - {x: -1.395, y: -2.51}
+      - {x: -1.3249999, y: -2.5}
+      - {x: -1.3349999, y: -1.92}
+      - {x: -1.015, y: -1.88}
+      - {x: -1.055, y: -1.5799999}
+      - {x: -0.49499997, y: -1.5799999}
+      - {x: -0.49499997, y: -2.76}
+      - {x: -0.79499996, y: -2.72}
+      - {x: -0.85499996, y: -3.02}
+      - {x: -1.145, y: -3.08}
+      - {x: -1.115, y: -3.3799999}
+      - {x: -1.365, y: -3.3799999}
+  m_UseDelaunayMesh: 0
 --- !u!1 &214786615
 GameObject:
   m_ObjectHideFlags: 0
@@ -2360,6 +2497,8 @@ MonoBehaviour:
   currentHealth: 0
   heartsUI: {fileID: 1313178880}
   opponentWinScene: shi_winScene
+  animator: {fileID: 1704051185}
+  movementScript: {fileID: 1704051180}
 --- !u!114 &1704051187
 MonoBehaviour:
   m_ObjectHideFlags: 0

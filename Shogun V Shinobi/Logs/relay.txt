@@ -1996,3 +1996,6 @@
 [2026-10-02T18:15:06.492Z] [DEBUG] log Relay->Editor communication is unblocked
 [2026-10-02T18:15:06.492Z] [INFO] log Unity client connected with ID: editor-77743-ufgmqu (relay 1.0.12-build.99)
 [2026-10-02T18:15:06.492Z] [INFO] connection.established clientId=editor-77743-ufgmqu port=9001
+[2026-10-02T18:16:57.183Z] [INFO] log Shutdown request received from client editor-77743-ufgmqu
+[2026-10-02T18:16:57.183Z] [INFO] log Unity client requested immediate shutdown - shutting down now, reason: Shutdown requested by client
+[2026-10-02T18:16:57.183Z] [INFO] log Shutdown: Initiating graceful shutdown: Shutdown requested by client

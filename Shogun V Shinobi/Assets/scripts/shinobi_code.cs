@@ -13,7 +13,8 @@ public class shinobi_code : MonoBehaviour
     public Animator animator;          // reference to the Animator component
     public Transform otherCharacter;   // reference to the other character's transform
     
-    
+    public AudioSource audioSource;          // reference to the AudioSource component
+    public AudioClip swordSwing; // Sound to play when attacking
     // Start is called once before the first execution of Update after the MonoBehaviour is created
      void Start()
     {
@@ -46,6 +47,7 @@ public class shinobi_code : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.J))
         {
             animator.SetTrigger("attack");
+            audioSource.PlayOneShot(swordSwing, 0.25f);
         }
 
         if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow))

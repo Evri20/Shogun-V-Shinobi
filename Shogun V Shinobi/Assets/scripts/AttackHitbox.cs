@@ -6,6 +6,9 @@ public class AttackHitbox : MonoBehaviour
     private bool hasHit = false; // To prevent multiple hits in a single attack
     private Collider2D hitboxCollider;
 
+    public AudioSource audioSource;          // reference to the AudioSource component
+    public AudioClip hitSound; // Sound to play when hitting the player
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -31,6 +34,11 @@ public class AttackHitbox : MonoBehaviour
         {
             // If it does, apply damage
             targetHealth.TakeDamage(damage);
+
+            if (audioSource != null && hitSound != null)
+            {
+                audioSource.PlayOneShot(hitSound, 0.25f); // Play the hit sound
+            }
         }
 
         }

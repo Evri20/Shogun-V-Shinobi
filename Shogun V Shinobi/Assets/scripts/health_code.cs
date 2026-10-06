@@ -8,6 +8,9 @@ public class health_code : MonoBehaviour
     public string opponentWinScene;
     public Animator animator;
     public MonoBehaviour movementScript;
+    
+    public AudioSource audioSource;          // reference to the AudioSource component
+    public AudioClip deathSound; // Sound to play when the player dies
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -38,6 +41,11 @@ public class health_code : MonoBehaviour
         if (animator != null)
         {
             animator.SetTrigger("Die");
+        }
+
+        if (audioSource != null && deathSound != null)
+        {
+            audioSource.PlayOneShot(deathSound, 2f); // Play the death sound
         }
 
         if (movementScript !=null)

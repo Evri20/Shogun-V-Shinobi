@@ -14,6 +14,10 @@ public class shogun : MonoBehaviour
     public Transform otherCharacter;   // reference to the other character's transform
     
     public Animator animator;          // reference to the Animator component
+    
+    public AudioSource audioSource;          // reference to the AudioSource component
+    public AudioClip swordSwing; 
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -53,6 +57,7 @@ public class shogun : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.F))
         {
             animator.SetTrigger("attack");
+            audioSource.PlayOneShot(swordSwing, 0.25f);
         }
         
         if (Input.GetKeyDown(KeyCode.W) && isGrounded)

@@ -140,8 +140,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -2549,5 +2551,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/playScene.unity
   - Assets/Scenes/shi_winScene.unity
   - Assets/Scenes/sho_winScene.unity
-  playerPath: /Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Shogun
-    V Shinobi.app
+  playerPath: /Users/evris/Desktop/My Games/Shogun V Shinobi.app

@@ -1,0 +1,633 @@
+{
+  "Nodes": [
+    {
+      "Annotation": "all_tundra_nodes",
+      "DisplayName": null,
+      "Inputs": [],
+      "InputFlags": [],
+      "Outputs": [],
+      "OutputFlags": [],
+      "ToBuildDependencies": [
+        1,
+        2,
+        3
+      ],
+      "DebugActionIndex": 0
+    },
+    {
+      "Annotation": "ScriptAssemblies",
+      "DisplayName": null,
+      "Inputs": [],
+      "InputFlags": [],
+      "Outputs": [],
+      "OutputFlags": [],
+      "DebugActionIndex": 1
+    },
+    {
+      "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
+      "DisplayName": "Extracting script serialization layouts",
+      "Action": "\"/Applications/Unity/Hub/Editor/6000.2.14f1/Unity.app/Contents/Tools/netcorerun/netcorerun\" \"/Applications/Unity/Hub/Editor/6000.2.14f1/Unity.app/Contents/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/ScriptAssemblies/Assembly-CSharp.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/ScriptAssemblies/Unity.AI.Animate.Motion.Runtime.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/ScriptAssemblies/Unity.AI.Assistant.Runtime.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/ScriptAssemblies/Unity.AI.MCP.Runtime.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/ScriptAssemblies/Unity.AI.Tracing.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/ScriptAssemblies/Unity.AppUI.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/ScriptAssemblies/Unity.AppUI.InternalAPIBridge.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/ScriptAssemblies/Unity.AppUI.MVVM.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/ScriptAssemblies/Unity.AppUI.Navigation.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/ScriptAssemblies/Unity.AppUI.Redux.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/ScriptAssemblies/Unity.AppUI.Undo.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/ScriptAssemblies/Unity.Burst.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/ScriptAssemblies/Unity.Collections.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/ScriptAssemblies/Unity.InferenceEngine.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/ScriptAssemblies/Unity.InferenceEngine.iOSBLAS.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/ScriptAssemblies/Unity.InferenceEngine.MacBLAS.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/ScriptAssemblies/Unity.InferenceEngine.Tokenization.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/ScriptAssemblies/Unity.InputSystem.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/ScriptAssemblies/Unity.InputSystem.ForUI.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/ScriptAssemblies/Unity.InputSystem.TestFramework.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/ScriptAssemblies/Unity.Mathematics.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/ScriptAssemblies/Unity.Multiplayer.Center.Common.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/ScriptAssemblies/Unity.PerformanceTesting.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/ScriptAssemblies/Unity.Pipeline.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/ScriptAssemblies/Unity.Pipeline.IlInterpreter.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/ScriptAssemblies/Unity.Rendering.LightTransport.Runtime.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Shared.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/ScriptAssemblies/Unity.RenderPipelines.GPUDriven.Runtime.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.2D.Runtime.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Runtime.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/ScriptAssemblies/Unity.TextMeshPro.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/ScriptAssemblies/Unity.Timeline.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/ScriptAssemblies/Unity.VisualScripting.DocCodeExamples.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/ScriptAssemblies/Unity.VisualScripting.State.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/ScriptAssemblies/UnityEngine.TestRunner.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/ScriptAssemblies/UnityEngine.UI.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Plugins/CodeAnalysis/6_4/Microsoft.CodeAnalysis.CSharp_AIA.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Plugins/CodeAnalysis/6_4/Microsoft.CodeAnalysis_AIA.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Plugins/Markdig/Markdig_AIA.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Plugins/Shared/Google.Protobuf_AIA.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Plugins/Shared/Microsoft.Bcl.AsyncInterfaces_AIA.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Plugins/Shared/Microsoft.Bcl.HashCode_AIA.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Plugins/Shared/Microsoft.Bcl.Memory_AIA.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Plugins/Shared/System.Collections.Immutable_AIA.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Plugins/Shared/System.Reflection.Metadata_AIA.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Plugins/Shared/System.Runtime.CompilerServices.Unsafe_AIA.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Plugins/Shared/System.Text.Encodings.Web_AIA.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Plugins/Shared/System.Text.Json_AIA.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Plugins/Shared/System.Threading.Tasks.Extensions_AIA.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Plugins/Tokenizer/Microsoft.ML.Tokenizers_AIA.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/PackageCache/com.unity.burst@1df634d836b8/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/PackageCache/com.unity.burst@1df634d836b8/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/PackageCache/com.unity.burst@1df634d836b8/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/PackageCache/com.unity.burst@1df634d836b8/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/PackageCache/com.unity.burst@1df634d836b8/Unity.Burst.Unsafe.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/PackageCache/com.unity.collections@aea9d3bd5e19/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/PackageCache/com.unity.collections@aea9d3bd5e19/Unity.Collections.Tests/System.IO.Hashing/System.IO.Hashing.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/PackageCache/com.unity.collections@aea9d3bd5e19/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/PackageCache/com.unity.ext.nunit@031a54704bff/net40/unity-custom/nunit.framework.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/PackageCache/com.unity.nuget.mono-cecil@ecb9724e46ff/Mono.Cecil.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/PackageCache/com.unity.nuget.mono-cecil@ecb9724e46ff/Mono.Cecil.Mdb.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/PackageCache/com.unity.nuget.mono-cecil@ecb9724e46ff/Mono.Cecil.Pdb.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/PackageCache/com.unity.nuget.mono-cecil@ecb9724e46ff/Mono.Cecil.Rocks.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/PackageCache/com.unity.nuget.newtonsoft-json@74deb55db2a0/Runtime/Newtonsoft.Json.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/PackageCache/com.unity.pipeline@9bb4172c603c/Runtime/Plugins/CodeAnalysis/Microsoft.CodeAnalysis.CSharp.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/PackageCache/com.unity.pipeline@9bb4172c603c/Runtime/Plugins/CodeAnalysis/Microsoft.CodeAnalysis.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/PackageCache/com.unity.pipeline@9bb4172c603c/Runtime/Plugins/CodeAnalysis/System.Collections.Immutable.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/PackageCache/com.unity.pipeline@9bb4172c603c/Runtime/Plugins/CodeAnalysis/System.Reflection.Metadata.dll\" -a=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/PackageCache/com.unity.visualscripting@b4d700247d4b/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"/Applications/Unity/Hub/Editor/6000.2.14f1/Unity.app/Contents/Managed/UnityEngine\" -s=\"/Applications/Unity/Hub/Editor/6000.2.14f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx\" -s=\"/Applications/Unity/Hub/Editor/6000.2.14f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard\" -s=\"/Applications/Unity/Hub/Editor/6000.2.14f1/Unity.app/Contents/NetStandard/EditorExtensions\" -s=\"/Applications/Unity/Hub/Editor/6000.2.14f1/Unity.app/Contents/NetStandard/Extensions/2.0.0\" -s=\"/Applications/Unity/Hub/Editor/6000.2.14f1/Unity.app/Contents/NetStandard/ref/2.1.0\" -s=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/ScriptAssemblies\" -s=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Plugins/CodeAnalysis/6_4\" -s=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Plugins/Markdig\" -s=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Plugins/Shared\" -s=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Plugins/Tokenizer\" -s=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/PackageCache/com.unity.burst@1df634d836b8\" -s=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/PackageCache/com.unity.burst@1df634d836b8/Unity.Burst.CodeGen\" -s=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/PackageCache/com.unity.collections@aea9d3bd5e19/Unity.Collections.LowLevel.ILSupport\" -s=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/PackageCache/com.unity.collections@aea9d3bd5e19/Unity.Collections.Tests/System.IO.Hashing\" -s=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/PackageCache/com.unity.collections@aea9d3bd5e19/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe\" -s=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/PackageCache/com.unity.ext.nunit@031a54704bff/net40/unity-custom\" -s=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/PackageCache/com.unity.nuget.mono-cecil@ecb9724e46ff\" -s=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/PackageCache/com.unity.nuget.newtonsoft-json@74deb55db2a0/Runtime\" -s=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/PackageCache/com.unity.pipeline@9bb4172c603c/Runtime/Plugins/CodeAnalysis\" -s=\"/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/PackageCache/com.unity.visualscripting@b4d700247d4b/Runtime/VisualScripting.Flow/Dependencies/NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
+      "Inputs": [
+        "/Applications/Unity/Hub/Editor/6000.2.14f1/Unity.app/Contents/Tools/netcorerun/netcorerun",
+        "/Applications/Unity/Hub/Editor/6000.2.14f1/Unity.app/Contents/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
+        "Library/ScriptAssemblies/Assembly-CSharp.dll",
+        "Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.dll",
+        "Library/ScriptAssemblies/Unity.AI.Animate.Motion.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.AI.Assistant.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.AI.MCP.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.AI.Tracing.dll",
+        "Library/ScriptAssemblies/Unity.AppUI.dll",
+        "Library/ScriptAssemblies/Unity.AppUI.InternalAPIBridge.dll",
+        "Library/ScriptAssemblies/Unity.AppUI.MVVM.dll",
+        "Library/ScriptAssemblies/Unity.AppUI.Navigation.dll",
+        "Library/ScriptAssemblies/Unity.AppUI.Redux.dll",
+        "Library/ScriptAssemblies/Unity.AppUI.Undo.dll",
+        "Library/ScriptAssemblies/Unity.Burst.dll",
+        "Library/ScriptAssemblies/Unity.Collections.dll",
+        "Library/ScriptAssemblies/Unity.InferenceEngine.dll",
+        "Library/ScriptAssemblies/Unity.InferenceEngine.iOSBLAS.dll",
+        "Library/ScriptAssemblies/Unity.InferenceEngine.MacBLAS.dll",
+        "Library/ScriptAssemblies/Unity.InferenceEngine.Tokenization.dll",
+        "Library/ScriptAssemblies/Unity.InputSystem.dll",
+        "Library/ScriptAssemblies/Unity.InputSystem.ForUI.dll",
+        "Library/ScriptAssemblies/Unity.InputSystem.TestFramework.dll",
+        "Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll",
+        "Library/ScriptAssemblies/Unity.Mathematics.dll",
+        "Library/ScriptAssemblies/Unity.Multiplayer.Center.Common.dll",
+        "Library/ScriptAssemblies/Unity.PerformanceTesting.dll",
+        "Library/ScriptAssemblies/Unity.Pipeline.dll",
+        "Library/ScriptAssemblies/Unity.Pipeline.IlInterpreter.dll",
+        "Library/ScriptAssemblies/Unity.Rendering.LightTransport.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Shared.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.GPUDriven.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.Universal.2D.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll",
+        "Library/ScriptAssemblies/Unity.TextMeshPro.dll",
+        "Library/ScriptAssemblies/Unity.Timeline.dll",
+        "Library/ScriptAssemblies/Unity.VisualScripting.Core.dll",
+        "Library/ScriptAssemblies/Unity.VisualScripting.DocCodeExamples.dll",
+        "Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll",
+        "Library/ScriptAssemblies/Unity.VisualScripting.State.dll",
+        "Library/ScriptAssemblies/UnityEngine.TestRunner.dll",
+        "Library/ScriptAssemblies/UnityEngine.UI.dll",
+        "Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Plugins/CodeAnalysis/6_4/Microsoft.CodeAnalysis.CSharp_AIA.dll",
+        "Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Plugins/CodeAnalysis/6_4/Microsoft.CodeAnalysis_AIA.dll",
+        "Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Plugins/Markdig/Markdig_AIA.dll",
+        "Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Plugins/Shared/Google.Protobuf_AIA.dll",
+        "Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Plugins/Shared/Microsoft.Bcl.AsyncInterfaces_AIA.dll",
+        "Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Plugins/Shared/Microsoft.Bcl.HashCode_AIA.dll",
+        "Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Plugins/Shared/Microsoft.Bcl.Memory_AIA.dll",
+        "Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Plugins/Shared/System.Collections.Immutable_AIA.dll",
+        "Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Plugins/Shared/System.Reflection.Metadata_AIA.dll",
+        "Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Plugins/Shared/System.Runtime.CompilerServices.Unsafe_AIA.dll",
+        "Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Plugins/Shared/System.Text.Encodings.Web_AIA.dll",
+        "Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Plugins/Shared/System.Text.Json_AIA.dll",
+        "Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Plugins/Shared/System.Threading.Tasks.Extensions_AIA.dll",
+        "Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Plugins/Tokenizer/Microsoft.ML.Tokenizers_AIA.dll",
+        "Library/PackageCache/com.unity.burst@1df634d836b8/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll",
+        "Library/PackageCache/com.unity.burst@1df634d836b8/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll",
+        "Library/PackageCache/com.unity.burst@1df634d836b8/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll",
+        "Library/PackageCache/com.unity.burst@1df634d836b8/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll",
+        "Library/PackageCache/com.unity.burst@1df634d836b8/Unity.Burst.Unsafe.dll",
+        "Library/PackageCache/com.unity.collections@aea9d3bd5e19/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll",
+        "Library/PackageCache/com.unity.collections@aea9d3bd5e19/Unity.Collections.Tests/System.IO.Hashing/System.IO.Hashing.dll",
+        "Library/PackageCache/com.unity.collections@aea9d3bd5e19/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll",
+        "Library/PackageCache/com.unity.ext.nunit@031a54704bff/net40/unity-custom/nunit.framework.dll",
+        "Library/PackageCache/com.unity.nuget.mono-cecil@ecb9724e46ff/Mono.Cecil.dll",
+        "Library/PackageCache/com.unity.nuget.mono-cecil@ecb9724e46ff/Mono.Cecil.Mdb.dll",
+        "Library/PackageCache/com.unity.nuget.mono-cecil@ecb9724e46ff/Mono.Cecil.Pdb.dll",
+        "Library/PackageCache/com.unity.nuget.mono-cecil@ecb9724e46ff/Mono.Cecil.Rocks.dll",
+        "Library/PackageCache/com.unity.nuget.newtonsoft-json@74deb55db2a0/Runtime/Newtonsoft.Json.dll",
+        "Library/PackageCache/com.unity.pipeline@9bb4172c603c/Runtime/Plugins/CodeAnalysis/Microsoft.CodeAnalysis.CSharp.dll",
+        "Library/PackageCache/com.unity.pipeline@9bb4172c603c/Runtime/Plugins/CodeAnalysis/Microsoft.CodeAnalysis.dll",
+        "Library/PackageCache/com.unity.pipeline@9bb4172c603c/Runtime/Plugins/CodeAnalysis/System.Collections.Immutable.dll",
+        "Library/PackageCache/com.unity.pipeline@9bb4172c603c/Runtime/Plugins/CodeAnalysis/System.Reflection.Metadata.dll",
+        "Library/PackageCache/com.unity.visualscripting@b4d700247d4b/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+      ],
+      "InputFlags": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/BuildPlayerData/Editor/TypeDb-All.json"
+      ],
+      "OutputFlags": [
+        0
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 2
+    },
+    {
+      "Annotation": "ScriptAssembliesAndTypeDB",
+      "DisplayName": null,
+      "Inputs": [],
+      "InputFlags": [],
+      "Outputs": [],
+      "OutputFlags": [],
+      "ToBuildDependencies": [
+        1,
+        2
+      ],
+      "DebugActionIndex": 3
+    }
+  ],
+  "FileSignatures": [
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.2.14f1/Unity.app/Contents/Tools/BuildPipeline/Bee.BuildTools.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.2.14f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Core.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.2.14f1/Unity.app/Contents/Tools/BuildPipeline/Bee.CSharpSupport.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.2.14f1/Unity.app/Contents/Tools/BuildPipeline/Bee.DotNet.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.2.14f1/Unity.app/Contents/Tools/BuildPipeline/Bee.NativeProgramSupport.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.2.14f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Stevedore.Program.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.2.14f1/Unity.app/Contents/Tools/BuildPipeline/Bee.TinyProfiler2.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.2.14f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Toolchain.GNU.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.2.14f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Toolchain.LLVM.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.2.14f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Toolchain.VisualStudio.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.2.14f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Toolchain.Xcode.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.2.14f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Tools.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.2.14f1/Unity.app/Contents/Tools/BuildPipeline/Bee.TundraBackend.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.2.14f1/Unity.app/Contents/Tools/BuildPipeline/Bee.VisualStudioSolution.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.2.14f1/Unity.app/Contents/Tools/BuildPipeline/BeeBuildProgramCommon.Data.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.2.14f1/Unity.app/Contents/Tools/BuildPipeline/BeeBuildProgramCommon.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.2.14f1/Unity.app/Contents/Tools/BuildPipeline/Newtonsoft.Json.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.2.14f1/Unity.app/Contents/Tools/BuildPipeline/NiceIO.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.2.14f1/Unity.app/Contents/Tools/BuildPipeline/PlayerBuildProgramLibrary.Data.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.2.14f1/Unity.app/Contents/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.2.14f1/Unity.app/Contents/Tools/BuildPipeline/ScriptCompilationBuildProgram.Data.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.2.14f1/Unity.app/Contents/Tools/BuildPipeline/ScriptCompilationBuildProgram.exe"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.2.14f1/Unity.app/Contents/Tools/BuildPipeline/SharpYaml.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.2.14f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Api.Attributes.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.2.14f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Cecil.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.2.14f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Cecil.Mdb.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.2.14f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Cecil.Pdb.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.2.14f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Cecil.Rocks.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.2.14f1/Unity.app/Contents/Tools/BuildPipeline/Unity.IL2CPP.Api.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.2.14f1/Unity.app/Contents/Tools/BuildPipeline/Unity.IL2CPP.Bee.BuildLogic.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.2.14f1/Unity.app/Contents/Tools/BuildPipeline/Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.2.14f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Linker.Api.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.2.14f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Options.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.2.14f1/Unity.app/Contents/Tools/BuildPipeline/UnityEditor.iOS.Extensions.Xcode.dll"
+    },
+    {
+      "File": "Library/Bee/1900b0aESkipCompile-inputdata.json"
+    }
+  ],
+  "StatSignatures": [
+    {
+      "File": "/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/getconf"
+    },
+    {
+      "File": "Assets/csc.rsp"
+    },
+    {
+      "File": "Assets/mcs.rsp"
+    },
+    {
+      "File": "Library/Bee/1900b0aESkipCompile-inputdata.json"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Plugins/CodeAnalysis/6_4/Microsoft.CodeAnalysis.CSharp_AIA.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Plugins/CodeAnalysis/6_4/Microsoft.CodeAnalysis_AIA.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Plugins/Markdig/Markdig_AIA.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Plugins/Shared/Google.Protobuf_AIA.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Plugins/Shared/Microsoft.Bcl.AsyncInterfaces_AIA.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Plugins/Shared/Microsoft.Bcl.HashCode_AIA.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Plugins/Shared/Microsoft.Bcl.Memory_AIA.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Plugins/Shared/System.Collections.Immutable_AIA.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Plugins/Shared/System.Reflection.Metadata_AIA.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Plugins/Shared/System.Runtime.CompilerServices.Unsafe_AIA.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Plugins/Shared/System.Text.Encodings.Web_AIA.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Plugins/Shared/System.Text.Json_AIA.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Plugins/Shared/System.Threading.Tasks.Extensions_AIA.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Plugins/Tokenizer/Microsoft.ML.Tokenizers_AIA.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.burst@1df634d836b8/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.burst@1df634d836b8/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.burst@1df634d836b8/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.burst@1df634d836b8/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.burst@1df634d836b8/Unity.Burst.Unsafe.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.collections@aea9d3bd5e19/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.collections@aea9d3bd5e19/Unity.Collections.Tests/System.IO.Hashing/System.IO.Hashing.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.collections@aea9d3bd5e19/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.ext.nunit@031a54704bff/net40/unity-custom/nunit.framework.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.nuget.mono-cecil@ecb9724e46ff/Mono.Cecil.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.nuget.mono-cecil@ecb9724e46ff/Mono.Cecil.Mdb.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.nuget.mono-cecil@ecb9724e46ff/Mono.Cecil.Pdb.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.nuget.mono-cecil@ecb9724e46ff/Mono.Cecil.Rocks.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.nuget.newtonsoft-json@74deb55db2a0/Runtime/Newtonsoft.Json.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.pipeline@9bb4172c603c/Runtime/Plugins/CodeAnalysis/Microsoft.CodeAnalysis.CSharp.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.pipeline@9bb4172c603c/Runtime/Plugins/CodeAnalysis/Microsoft.CodeAnalysis.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.pipeline@9bb4172c603c/Runtime/Plugins/CodeAnalysis/System.Collections.Immutable.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.pipeline@9bb4172c603c/Runtime/Plugins/CodeAnalysis/System.Reflection.Metadata.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.visualscripting@b4d700247d4b/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Assembly-CSharp.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.AI.Animate.Motion.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.AI.Assistant.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.AI.MCP.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.AI.Tracing.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.AppUI.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.AppUI.InternalAPIBridge.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.AppUI.MVVM.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.AppUI.Navigation.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.AppUI.Redux.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.AppUI.Undo.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Burst.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Collections.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.InferenceEngine.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.InferenceEngine.iOSBLAS.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.InferenceEngine.MacBLAS.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.InferenceEngine.Tokenization.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.InputSystem.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.InputSystem.ForUI.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.InputSystem.TestFramework.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Mathematics.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Multiplayer.Center.Common.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.PerformanceTesting.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Pipeline.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Pipeline.IlInterpreter.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Rendering.LightTransport.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Shared.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.RenderPipelines.GPUDriven.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.RenderPipelines.Universal.2D.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.TextMeshPro.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Timeline.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.VisualScripting.Core.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.VisualScripting.DocCodeExamples.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.VisualScripting.State.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/UnityEngine.TestRunner.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/UnityEngine.UI.dll"
+    }
+  ],
+  "GlobSignatures": [
+    {
+      "Path": "/Applications/Unity/Hub/Editor/6000.2.14f1/Unity.app/Contents/Tools/BuildPipeline"
+    }
+  ],
+  "ContentDigestExtensions": [
+    ".rsp",
+    ".dll",
+    ".exe",
+    ".pdb",
+    ".json",
+    ".csproj"
+  ],
+  "StructuredLogFileName": "Library/Bee/tundra.log.json",
+  "StateFileName": "Library/Bee/TundraBuildState.state",
+  "StateFileNameTmp": "Library/Bee/TundraBuildState.state.tmp",
+  "StateFileNameMapped": "Library/Bee/TundraBuildState.state.map",
+  "ScanCacheFileName": "Library/Bee/tundra.scancache",
+  "ScanCacheFileNameTmp": "Library/Bee/tundra.scancache.tmp",
+  "DigestCacheFileName": "Library/Bee/tundra.digestcache",
+  "DigestCacheFileNameTmp": "Library/Bee/tundra.digestcache.tmp",
+  "CachedNodeOutputDirectoryName": "Library/Bee/CachedNodeOutput",
+  "EmitDataForBeeWhy": 0,
+        "NamedNodes": {
+          "all_tundra_nodes": 0,
+          "ScriptAssemblies": 1,
+          "ScriptAssembliesAndTypeDB": 3
+        }
+,  "DefaultNodes": [
+    0
+  ],
+  "SharedResources": [],
+  "Scanners": [],
+  "Identifier": "Library/Bee/1900b0aESkipCompile.dag.json",
+  "PayloadsFile": "/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Library/Bee/1900b0aESkipCompile.dag.payloads",
+  "RelativePathToRoot": "../.."
+}

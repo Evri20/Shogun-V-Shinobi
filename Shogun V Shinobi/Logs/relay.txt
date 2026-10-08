@@ -2614,3 +2614,21 @@
 [2026-10-07T17:08:56.805Z] [INFO] log Shutdown request received from client editor-3509-oevy2f
 [2026-10-07T17:08:56.805Z] [INFO] log Unity client requested immediate shutdown - shutting down now, reason: Shutdown requested by client
 [2026-10-07T17:08:56.805Z] [INFO] log Shutdown: Initiating graceful shutdown: Shutdown requested by client
+[2026-10-08T17:51:13.321Z] [INFO] relay.startup port=9001 mcpClientPort=9002 editorPid=14189
+[2026-10-08T17:51:13.322Z] [INFO] log === RELAY SERVER STARTED === (unity-ai-relay v1.0.12-build.99)
+[2026-10-08T17:51:13.329Z] [INFO] log TLS trust: NODE_USE_SYSTEM_CA=on systemCAs=0 bundledCAs=145
+[2026-10-08T17:51:13.329Z] [INFO] log Starting relay server...
+[2026-10-08T17:51:13.329Z] [INFO] log Command line arguments: ["bun","/$bunfs/root/relay_mac_arm64","--relay","--port","9001","--mcp-client-port","9002","--editor-pid","14189","--shutdown-delay","180","--log-dir","/Users/evris/Documents/GitHub/Shogun-V-Shinobi/Shogun V Shinobi/Logs"]
+[2026-10-08T17:51:13.329Z] [INFO] log Parsed config: {"port":9001,"mcpClientPort":9002,"editorPid":"14189","shutdownDelaySeconds":180}
+[2026-10-08T17:51:13.331Z] [INFO] log Initializing relay components...
+[2026-10-08T17:51:13.331Z] [INFO] log Creating RelayEditor...
+[2026-10-08T17:51:13.334Z] [INFO] log WebSocket server started
+[2026-10-08T17:51:13.334Z] [INFO] log Relay server initialization completed
+[2026-10-08T17:51:13.334Z] [INFO] log MCP Client initialized at port: 9002
+[2026-10-08T17:51:13.342Z] [INFO] log Unity MCP Relay server started | Port: 9002 | Endpoints: /mcp/start-server, /mcp/stop-server, /mcp/server-status, /mcp/call-tool
+[2026-10-08T17:51:13.356Z] [INFO] log [shell-env] PATH augmented with shell environment (13 entries)
+[2026-10-08T17:51:13.530Z] [INFO] log Unity client connected with ID: editor-14189-pw48yp (relay 1.0.12-build.99)
+[2026-10-08T17:51:13.531Z] [INFO] connection.established clientId=editor-14189-pw48yp port=9001
+[2026-10-08T17:51:53.352Z] [INFO] log Shutdown request received from client editor-14189-pw48yp
+[2026-10-08T17:51:53.352Z] [INFO] log Unity client requested immediate shutdown - shutting down now, reason: Shutdown requested by client
+[2026-10-08T17:51:53.352Z] [INFO] log Shutdown: Initiating graceful shutdown: Shutdown requested by client
